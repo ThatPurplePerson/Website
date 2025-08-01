@@ -18,7 +18,7 @@ body {
     }
 }
 
-h1 {
+.corner {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FFC1E3;
     text-align: center;
