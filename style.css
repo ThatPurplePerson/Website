@@ -2,7 +2,9 @@ body {
     background: linear-gradient(135deg, #c49bfa, #8350da);
     min-height: 100vh;
     margin: 0;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Use center for vertical centering */
 }
 
 .corner {
@@ -14,6 +16,6 @@ body {
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background: #FF69B4;
-    border: 6px solid #FF69B4; /* Hot pink border, 6px thick */
+    border: 6px solid #FF69B4;
     display: inline-block;
 }
