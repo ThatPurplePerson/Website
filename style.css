@@ -1,7 +1,5 @@
 body {
-    background: linear-gradient(135deg, #b495dd 0%, #8f5be8 100%);
-    background-size: 400% 400%;
-    animation: gradientFlow 15s ease infinite;
+    background: linear-gradient(135deg, #b495dd 50%, #8f5be8 50%);
     min-height: 100vh;
     margin: 0;
 }
@@ -15,5 +13,6 @@ body {
     border-radius: 30px 70px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-color: #FF69B4;
+    background: #FF69B4;
+    border: 6px solid #FF69B4; /* Hot pink border, 6px thick */
 }
