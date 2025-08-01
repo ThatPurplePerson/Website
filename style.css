@@ -1,7 +1,21 @@
 body {
     background: linear-gradient(135deg, #3a8dde 0%, #8f5be8 100%);
+    background-size: 400% 400%;
+    animation: gradientFlow 15s ease infinite;
     min-height: 100vh;
     margin: 0;
+}
+
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .title {
@@ -9,4 +23,9 @@ body {
     color: #FFC1E3;
     text-align: center;
     margin-top: 20px;
+    font-size: larger;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #3a8dde
 }
