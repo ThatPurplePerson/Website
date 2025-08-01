@@ -4,7 +4,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Use center for vertical centering */
+    align-items: center; /* Use center for vertical centering */
 }
 
 .corner {
@@ -17,5 +17,4 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background: #FF69B4;
     border: 6px solid #FF69B4;
-    display: inline-block;
 }
