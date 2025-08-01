@@ -6,26 +6,14 @@ body {
     margin: 0;
 }
 
-@keyframes gradientFlow {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 .corner {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #FFC1E3;
-    border-color: #3a8dde;
     text-align: center;
     margin-top: 20px;
     font-size: 70px;
     border-radius: 30px 70px;
     padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background: #FF69B4; /* Hot pink background */
 }
