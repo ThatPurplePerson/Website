@@ -15,4 +15,5 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     background: #FF69B4;
     border: 6px solid #FF69B4; /* Hot pink border, 6px thick */
+    display: inline-block;
 }
