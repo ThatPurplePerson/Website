@@ -4,7 +4,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center; /* Use center for vertical centering */
+    align-items: top;
 }
 
 .corner {
