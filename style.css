@@ -2,6 +2,7 @@ body {
     background: linear-gradient(135deg, #c49bfa, #8350da);
     min-height: 100vh;
     margin: 0;
+    text-align: center;
 }
 
 .corner {
